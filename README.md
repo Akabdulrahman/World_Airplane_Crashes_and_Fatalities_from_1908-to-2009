@@ -28,7 +28,7 @@ The steps using in analyzing this data are listed below;
           
           **DATA COLLECTION**
            
-  On the contrary, knowing the purpose of the analysis was my first initial step. The data on Airplane crash and fatalities was collected from [kaggle](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908) using “Get Data’’ on PowerBi Desktop  following the ETL process ( Extract Transform and Load)
+ On the contrary, knowing the purpose of the analysis was my first initial step. The data on Airplane crash and fatalities was collected from [kaggle](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908) using “Get Data’’ on PowerBi Desktop  following the ETL process ( Extract Transform and Load)
 DATA CLEANING AND TRANSFORMATION
 
   After extracting the data into power query, the next step was to transform and clean the data in power query for better optimization. “Cleaning data is very important because it helps to prevent errors when analyzing, avoid duplication etc ”. The first thing I did was to insert the appropriate data type into each column because some columns had a wrong data type. Then I looked for duplicates rows  using ‘column distribution’ in power query. There were null values in the ‘number of fatalities’ column and I replaced them with 0. I removed unnecessary columns in the data so as to avoid redundancy and created new measures using DAX
